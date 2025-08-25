@@ -1,0 +1,29 @@
+{
+  "name": "seva-sahayog-team22",
+  "version": "1.0.0",
+  "description": "this is a full frontend and backend site for Seva Sahayog by team-22",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mastercard-Code-For-Change-2-0/Team-22.git"
+  },
+  "author": "Team-22",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mastercard-Code-For-Change-2-0/Team-22/issues"
+  },
+  "homepage": "https://github.com/Mastercard-Code-For-Change-2-0/Team-22#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.18.0",
+    "nodemon": "^3.1.10"
+  }
+}
