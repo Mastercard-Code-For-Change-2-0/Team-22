@@ -13,6 +13,11 @@ app.use(express.json());
 
 app.use('/api/auth/receiver', receiverRoutes);
 app.use('/api/auth/donor', donorRoutes);
+app.use("/api/admin", adminRoutes);
+app.use("/api/requirements", requirementRoutes);
+app.use("/api/donations", donationRoutes);
+app.use("/api/receivers", receiverRoutes);
+app.use("/api/donors", donorRoutes);
 
 mongoose.connect("mongodb://127.0.0.1:27017/donation_matching_portal", {
   useNewUrlParser: true,
