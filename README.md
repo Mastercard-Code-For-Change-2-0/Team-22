@@ -111,3 +111,7 @@ Analyst & Documentation – Kaushal Waykole
 📜 License
 
 This project was developed for the Code for Change Hackathon 2025 and is intended for educational and social good purposes.
+
+## 📄 Project Documentation
+[View Full Documentation (PDF)](CodeforChange_Documentation.pdf)
+
